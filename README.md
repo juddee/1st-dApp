@@ -6,4 +6,5 @@ This dApp was built with Ethersjs which helped connect our frontend with the our
 This project is part of my Learnweb3.io freshman track.
 
 You can check the [Live Demo here](https://1st-dapp.netlify.app/).
+1st-dApp is an app that reads and writes a value to the blockchain.
 
