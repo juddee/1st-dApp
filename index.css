@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 15px 20px;
+    color: aliceblue;
+    background-color: midnightblue;
+}
+
+.brand{
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.my_form{
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: aliceblue;
+}
+
+.msg{
+    padding: 20px 0;
+    margin: 10px 0;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+#web3-form{
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+@media(max-width:600px){
+    #web3-form{
+        width: 100%;
+    }
+}
+
+#web3-form label {
+    font-weight: 600;
+}
+
+#mood{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    outline: 1px solid midnightblue;
+    border-radius: 5px;
+
+}
+ 
+
+#mood-output{
+    padding:10px 0;
+    margin: 5px 0;
+    color:crimson;
+    font-weight: 600;
+    animation: flashMsg 0.3s 0.1s infinite;
+}
+
+@keyframes flashMsg{
+    0%{
+        opacity: 0.3;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.btn-sec{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.btn{
+    width: 40%;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 4px;
+    background-color: midnightblue;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+footer{
+    width: 100%;
+    padding: 15px;
+}
+
+footer .wrapper{
+    text-align: center;
+    opacity: 0.7;
+    font-size: 0.8rem;
+}
+
+footer a{
+    color: black;
+}

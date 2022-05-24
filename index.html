@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First dApp</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand">1st-dApp</div>
+    </header>
+
+
+    <div class="my_form">
+        <p class="msg">Type your mood in the input box below and click "Set Mood" button to add your mood to our smart contract that is deployed on the ethereum network :) <br>
+        Click "Get Mood" button to get your mood from the smart contract.</p>
+        <p id="mood-output"></p>
+        <form id="web3-form">
+            <div class="content">
+                <label for="mood" >Enter Your Mood</label> <br> <br>
+                <input type="text" placeholder=" Type your mood here..." id="mood"/>
+            </div><br>
+            <div class="btn-sec">
+                <button class="btn"  id="getmood"> Get Mood</button>
+                <button class="btn"  id="setmood">Set Mood</button>
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <p>Made by <a href="https://github.com/juddee">Jude</a></p> 
+        </div>
+    </footer>
+
+    <script charset="utf-8"
+    src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+    type="text/javascript">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
